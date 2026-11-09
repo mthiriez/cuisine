@@ -26,9 +26,7 @@
   .weather b{color:var(--ink);font-size:1.5vw}
   .grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:1.1vw;height:calc(100% - 10.4vh)}
   .card{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:1.5vh 1.2vw;display:flex;flex-direction:column;min-height:0}
-  .card h2{font-size:.82vw;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:600;margin-bottom:1.2vh;display:flex;align-items:center;justify-content:space-between;gap:.6vw}
-  .card h2 .resp{text-transform:none;letter-spacing:0;font-size:.75vw;font-weight:600;color:var(--accent);border:1px solid var(--line);border-radius:1vw;padding:.22vh .6vw;white-space:nowrap}
-  .card h2 .resp.s{color:var(--s);border-color:#e3d7ea}
+  .card h2{font-size:.82vw;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:600;margin-bottom:1.2vh}
   .today{display:flex;flex-direction:column}
   .big{font-size:5.2vw;font-weight:700;letter-spacing:-.04em;line-height:.95}
   .big span{font-size:1.6vw;color:var(--muted);font-weight:500;margin-left:.4vw}
@@ -93,7 +91,7 @@
 
   <div class="grid">
     <section class="card today">
-      <h2>Aujourd'hui<span class="resp">Matthieu</span></h2>
+      <h2>Aujourd'hui</h2>
       <div class="big">08<span>:34</span></div>
       <div class="now">Prochain rendez-vous dans 26 min</div>
       <div class="tl">
@@ -106,7 +104,7 @@
     </section>
 
     <section class="card days">
-      <h2>Les trois prochains jours<span class="resp">Matthieu</span></h2>
+      <h2>Les trois prochains jours</h2>
       <div class="day">
         <div class="d">Mardi 10 <em>demain</em></div>
         <ul>
@@ -135,7 +133,7 @@
 
     <div class="right">
       <section class="card">
-        <h2>Menus de la semaine<span class="resp s">Sarah</span></h2>
+        <h2>Menus de la semaine</h2>
         <div class="menu">
           <div class="mrow tody"><b>Lun</b><span>Soupe de potiron, œufs mollets</span></div>
           <div class="mrow"><b>Mar</b><span>Gratin de courgettes, jambon</span></div>
@@ -148,7 +146,7 @@
       </section>
 
       <section class="card">
-        <h2>Liste de courses · 3 sur 8<span class="resp s">Sarah</span></h2>
+        <h2>Liste de courses · 3 sur 8</h2>
         <ul class="shop">
           <li class="done"><i class="box"></i><span>Lait demi-écrémé</span></li>
           <li class="done"><i class="box"></i><span>Pommes</span></li>
