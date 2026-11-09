@@ -30,7 +30,12 @@
   .big{font-size:5.2vw;font-weight:700;letter-spacing:-.04em;line-height:.95}
   .big span{font-size:1.6vw;color:var(--muted);font-weight:500;margin-left:.4vw}
   .now{font-size:1vw;color:var(--accent);font-weight:600;margin-top:.8vh}
-  .tl{margin-top:1.8vh;display:flex;flex-direction:column;gap:0}
+  .traf{display:flex;align-items:center;gap:.7vw;margin-top:1.4vh;background:#f7f5f0;border:1px solid var(--line);border-radius:.7vw;padding:.85vh .9vw}
+  .traf .dot{width:.75vw;height:.75vw;border-radius:50%;background:var(--accent);flex:0 0 auto}
+  .traf .lab{font-size:.78vw;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600}
+  .traf .val{font-size:1.15vw;font-weight:700;margin-left:auto;font-variant-numeric:tabular-nums}
+  .traf .sub{font-size:.8vw;color:var(--muted);margin-left:.5vw;font-weight:500}
+  .tl{margin-top:1.4vh;display:flex;flex-direction:column;gap:0}
   .ev{display:grid;grid-template-columns:4.2vw 1fr;gap:.8vw;padding:1.25vh 0;border-bottom:1px solid var(--line);align-items:baseline}
   .ev:last-child{border-bottom:none}
   .ev .t{font-size:1.05vw;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -78,6 +83,7 @@
       <h2>Aujourd'hui</h2>
       <div class="big">08<span>:34</span></div>
       <div class="now">Prochain rendez-vous dans 26 min</div>
+      <div class="traf"><span class="dot"></span><span class="lab">Trajet école</span><span class="val">15 min</span><span class="sub">20 min à 7h30</span></div>
       <div class="tl">
         <div class="ev"><div class="t">09:00</div><div><div class="w">Point budget &amp; prévisionnel</div><div class="who m">Matthieu · visio</div></div></div>
         <div class="ev"><div class="t">12:30</div><div><div class="w">Déjeuner de travail</div><div class="who m">Matthieu · Villeneuve-d'Ascq</div></div></div>
