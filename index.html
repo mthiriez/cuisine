@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cuisine · maquette</title>
+<title>Cuisine · maquette fictive</title>
 <style>
   :root{
     --bg:#f4f2ed; --card:#ffffff; --ink:#1c2126; --muted:#6b7280;
@@ -20,9 +20,10 @@
   .top{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:1.4vh}
   .date{font-size:2.6vw;font-weight:700;letter-spacing:-.02em;line-height:1}
   .date small{display:block;font-size:1vw;font-weight:500;color:var(--muted);margin-top:.5vh;letter-spacing:0}
+  .fict{color:#a4562f !important;font-weight:600 !important;letter-spacing:.02em}
   .weather{display:flex;align-items:center;gap:1.2vw;font-size:1.05vw;color:var(--muted)}
   .weather b{color:var(--ink);font-size:1.5vw}
-  .grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:1.1vw;height:calc(100% - 8.6vh)}
+  .grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:1.1vw;height:calc(100% - 10.4vh)}
   .card{background:var(--card);border:1px solid var(--line);border-radius:1.1vw;padding:1.5vh 1.2vw;display:flex;flex-direction:column;min-height:0}
   .card h2{font-size:.82vw;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:600;margin-bottom:1.2vh}
   .today{display:flex;flex-direction:column}
@@ -64,9 +65,10 @@
   <div class="top">
     <div class="date">Lundi 9 novembre
       <small>Semaine 46 · 08:34 · école à 8h20, c'est passé</small>
+      <small class="fict">Maquette fictive · rendez-vous, menus et courses inventés</small>
     </div>
     <div class="weather">
-      <span class="tag">maquette · données fictives</span>
+      <span class="tag">maquette fictive · aucune donnée réelle</span>
       <b>9°</b> Lille · averses, 12° max
     </div>
   </div>
@@ -91,7 +93,7 @@
         <div class="d">Mardi 10 <em>demain</em></div>
         <ul>
           <li><b>08:20</b><span>École · sac de piscine</span></li>
-          <li><b>14:00</b><span>Réunion Le Plein <i class="m">· Matthieu</i></span></li>
+          <li><b>14:00</b><span>Réunion de travail <i class="m">· Matthieu</i></span></li>
           <li><b>17:45</b><span>Piano <i class="e">· Enfant 1</i></span></li>
         </ul>
       </div>
